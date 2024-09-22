@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Player-Music" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Player Music</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Player Music</h1>
+    </header>
+
+    <main>
+        <section id="music">
+            <h2>Últimas Músicas</h2>
+            <div class="music-item">
+                <h3>Artista - Música 1</h3>
+                <audio controls>
+                    <source src="music/song1.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+            <div class="music-item">
+                <h3>Artista - Música 2</h3>
+                <audio controls>
+                    <source src="music/song2.mp3" type="audio/mpeg">
+                    Seu navegador não suporta o elemento de áudio.
+                </audio>
+            </div>
+        </section>
+
+        <section id="videos">
+            <h2>Últimos Vídeos</h2>
+            <div class="video-item">
+                <h3>Artista - Vídeo 1</h3>
+                <video width="320" height="240" controls>
+                    <source src="videos/video1.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+            <div class="video-item">
+                <h3>Artista - Vídeo 2</h3>
+                <video width="320" height="240" controls>
+                    <source src="videos/video2.mp4" type="video/mp4">
+                    Seu navegador não suporta o elemento de vídeo.
+                </video>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Player Music. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
